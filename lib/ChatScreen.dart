@@ -249,7 +249,8 @@ class _ChatscreenState extends State<Chatscreen> {
       return; // stop here
     }
 
-    const apiKey = "AIzaSyBS57J6_RlpRYeir__keFiXuiC6RkAFn-k";
+    const apiKey = ""; // add your api key
+    // if url not works use url that given in website when get api
     final url = Uri.parse(
       "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
     );
